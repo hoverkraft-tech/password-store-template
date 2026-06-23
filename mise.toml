@@ -1,0 +1,9 @@
+[settings]
+lockfile = true
+
+[tools]
+fzf = "latest"
+
+[env]
+PASSWORD_STORE_DIR = { value = "{{ config_root }}", path = true }
+PASSWORD_STORE_ENABLE_EXTENSIONS = "true"

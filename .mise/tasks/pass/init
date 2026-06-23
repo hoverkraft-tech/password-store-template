@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#MISE description="Initialize a password-store repository"
+#MISE dir="{{ config_root }}"
+#USAGE arg "<gpg-id>" var=#true help="GPG id (can be repeated)" {}
+
+set -e -o pipefail
+
+# shellcheck disable=SC2086
+pass init ${usage_gpg_id?}
