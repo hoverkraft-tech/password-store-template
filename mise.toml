@@ -3,6 +3,7 @@ lockfile = true
 
 [tools]
 fzf = "latest"
+usage = "latest"
 
 [env]
 PASSWORD_STORE_DIR = { value = "{{ config_root }}", path = true }
